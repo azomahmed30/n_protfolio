@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+    outline:0;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+    
+}
+.logo{
+    width:15%;
+    float:left;
+    background-color:coral;
+    
+}
+.logo img{
+    padding:15px;
+}
+.menu{
+    width:70%;
+    float:left;
+    
+    
+}
+.apply{
+    width:15%;
+    float: right;
+}
+.apply ul li a{
+    text-decoration:none;
+    color: white;
+    text-transform:uppercase;
+}
+ul,li {
+   list-style: none;
+   float: left;
+    padding:10px;
+   
+}
+.menu ul{
+    float:right;
+}
+.menu ul li a{
+  text-decoration:none;
+  color: white;
+  text-transform: uppercase  
+}
+.menu ul li a:hover{
+    background: #37A9E0;
+    padding:10px;
+}
+nav{
+    background-color: #020031;
+}
+.cls{
+   clear: both;
+}
+body{
+   
+}
+/*banner part css start   */
+#banner{
+    background:url(../images/office-1548297_1280.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0px)
+   
+}
+
+
+/*banner part css end   */
+/*about part start*/
+#about{
+    padding: 50px 0px;
+}
+.about_head h2{
+    text-align:center;
+    background-color: darkcyan;
+    font-size: 30px 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom:20px;
+}
+.about_img img{
+    width:100%;
+}
+.about_img{
+    width:48%;
+    float:left;
+    padding-bottom: 20px;
+    
+}
+.about_content{
+    width:50%;
+    float:left;
+    padding-left:21px;
+    padding-bottom: 20px;
+}
+
+
+/*about part end*/
+/*gallery part start*/
+.about_head_gly{
+    text-align:center;
+    background-color: indianred;
+    font-size: 30px 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom:20px;
+}
+.gallery_img{
+     width:32%;
+    float:left;
+    padding-right:7px;
+}
+.gallery_img img{
+    width:100%;
+}
+.gallery_img1{
+     width:32%;
+    float:left;
+    padding-right:9px;
+}
+.gallery_img1 img{
+    width:100%;
+}
+.gallery_img2{
+    width:32%;
+    float:left;
+    padding: 0;
+    margin-right: 0;
+}
+.gallery_img2 img{
+    width:100%;
+}
+.footer1{
+     text-align:center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 10px;
+    bottom:10px;
+    text-transform: capitalize;
+}
+/*gallery part end*/
+   
